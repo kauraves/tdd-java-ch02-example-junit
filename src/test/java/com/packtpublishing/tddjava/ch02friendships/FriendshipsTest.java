@@ -16,6 +16,8 @@ public class FriendshipsTest {
 
     @Before
     public void before() {
+        int i = 7;
+
         friendships = new Friendships();
         friendships.makeFriends("Joe", "Audrey");
         friendships.makeFriends("Joe", "Peter");
